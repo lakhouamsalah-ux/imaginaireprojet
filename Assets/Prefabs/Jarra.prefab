@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7756090125056132967}
   - component: {fileID: 9094134997891365692}
   - component: {fileID: 8810699958509882686}
-  - component: {fileID: 4122828323166157893}
   - component: {fileID: 9010312213260063642}
   m_Layer: 0
   m_Name: Jarra
@@ -203,7 +202,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -250,29 +249,6 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
---- !u!136 &4122828323166157893
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777852082986651588}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.0076225065
-  m_Height: 0.04593702
-  m_Direction: 1
-  m_Center: {x: 0.0000000023283067, y: 0.012968509, z: -0.0000000016298147}
 --- !u!114 &9010312213260063642
 MonoBehaviour:
   m_ObjectHideFlags: 0

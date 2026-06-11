@@ -4,6 +4,7 @@ public class WaistInventoryZone : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log($"Object entered inventory zone: {other.name}");
         InventoryGrabbable item =
             other.GetComponent<InventoryGrabbable>();
 

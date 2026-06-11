@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 9023156267644384224}
   - component: {fileID: 8340372213829773716}
   - component: {fileID: 7159091758936820990}
-  - component: {fileID: 3549771467328445922}
   m_Layer: 0
   m_Name: Pot
   m_TagString: Untagged
@@ -203,7 +202,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -264,24 +263,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventoryGrabbable
   itemData: {fileID: 11400000, guid: b519a8d9c26f5e848a841fdff2e663a0, type: 2}
   isClone: 0
---- !u!65 &3549771467328445922
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5233042956093336669}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.025104122, y: 0.019752236, z: 0.025135236}
-  m_Center: {x: -0.000016450882, y: -0.00012388173, z: 8.802327e-19}

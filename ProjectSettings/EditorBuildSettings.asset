@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jardin.unity
     guid: 4c593712923b55644a31fcf4e42c197f
+  - enabled: 1
+    path: Assets/Scenes/LivingRoom.unity
+    guid: f8ee60c5f8b288b439bdf579ee2de25e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9956be934b9688740889be0382fea9a2, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
